@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #c9d3e4;
+    font-family: sans-serif;
+    color: white;
+}
+
+#outer-box {
+    width: 450px;
+    padding: 50px;
+    background-color: #333;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #888;
+    position: relative;
+}
+
+.fa-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+#signin {
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: #e3e3e3;
+}
+
+input {
+    display: block;
+    padding: 10px 15px 10px;
+    width: 300px;
+    margin: 40px auto;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+#fullname, #email, #password {
+    background-color: transparent;
+    border-bottom: 2px solid orangered;
+    color: white;
+}
+
+#submit {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid orangered;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: linear-gradient(to right, orangered, orange);
+}
